@@ -11,7 +11,7 @@ Suricata Listener is a tool designed to continuously monitor and process logs ge
 
 ## Prerequisites
 
-A running Suricata setup. Use this repo to deploy it in GKE using OIDC authentication ( https://github.com/harkirat22/falcon-suricata-gke-deployment)
+A running Suricata setup. Use this repo to deploy it in GKE using OIDC authentication (https://github.com/hafeezdevops1/DevSecOps-Test-Task/tree/main)
 
 Kubernetes cluster for DaemonSet deployment.
 
@@ -25,7 +25,7 @@ docker run -v /path/to/suricata/logs:/var/log/suricata suricata-listener
 
 ### Kubernetes
 Refer to the provided Terraform configuration to deploy Suricata Listener as a DaemonSet in a Kubernetes cluster.
-Link: https://github.com/harkirat22/falcon-suricata-gke-deployment
+Link: https://github.com/hafeezdevops1/DevSecOps-Test-Task/tree/main
 
 ## Usage
 Once deployed, the Suricata Listener will continuously monitor the designated log directory (/var/log/suricata by default) for new log entries in eve.json which has a structure of a newline-delimited JSON (NDJSON) format. 
